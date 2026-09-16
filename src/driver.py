@@ -1,13 +1,8 @@
 import cv2
 import matplotlib.pyplot as plt
-from PIL import Image
 import numpy as np
 
 imagePath = "./images/sample.jpg"
-
-# image = Image.open(imagePath)
-
-# image.show()
 
 image = cv2.imread(imagePath)
 
