@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 
-
 def detect_red_circles(imagePath):
 
     image = cv2.imread(imagePath)
@@ -32,5 +31,3 @@ def detect_red_circles(imagePath):
         return(True)
     else:
         return(False)
-
-print(detect_red_circles("./images/ManyCircles.jpg"))
