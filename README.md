@@ -2,5 +2,5 @@
 Code to detect if an image has a red circle
 
 ### Contents
-RefinedRedCircles.py
+RefinedRedCircles.py: Main detection algorithm that returns a boolean value of whether or not there is a red circle in an image.
 Sorter.py
